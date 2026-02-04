@@ -94,7 +94,7 @@ function App() {
                 padding: '0.5rem', borderBottom: `2px solid ${status === 'rejected' ? '#475569' : '#3b82f6'}`,
                 borderColor: status === 'offer' ? '#10b981' : (status === 'interviewing' ? '#eab308' : (status === 'applied' ? '#8b5cf6' : undefined))
               }}>
-                <h3 style={{ fontSize: '1rem', color: '#e2e8f0', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.85rem' }}>
+                <h3 style={{ color: '#e2e8f0', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.85rem' }}>
                   {STATUS_LABELS[status]}
                 </h3>
                 <span style={{
